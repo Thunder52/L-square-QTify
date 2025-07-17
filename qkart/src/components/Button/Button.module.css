@@ -1,7 +1,7 @@
 .customButton {
   background-color: #121212 !important;
   color: #34C94B !important;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins" !important;
   border-radius: 12px !important;
   text-transform: none;
   padding: 8px 16px;
