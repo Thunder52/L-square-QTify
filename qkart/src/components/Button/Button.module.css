@@ -1,0 +1,16 @@
+.customButton {
+  background-color: #121212 !important;
+  color: #34C94B !important;
+  font-family: "Poppins", sans-serif;
+  border-radius: 12px !important;
+  text-transform: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.customButton:hover {
+  cursor: pointer;
+  background-color: #121212;
+}
