@@ -1,8 +1,7 @@
 import {Routes, Route} from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import Cards from './components/Card/Card';
-import Section from './components/Section/Section';
+import Hero from './components/Hero/Hero';;
+import Album from './components/Album/Album';
 
 function App() {
 
@@ -10,7 +9,7 @@ function App() {
     <>
     <Navbar />
     <Hero />
-    <Section />
+    <Album />
     </>
   )
 }
