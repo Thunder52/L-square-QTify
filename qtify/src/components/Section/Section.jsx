@@ -26,13 +26,12 @@ const Section = () => {
             <p>Top Albums</p>
             <Button onClick={() => setShow(!show)}>{show ? 'Collapse' : 'Show All'}</Button>
         </div>
-        {show && (
             <div className={styles.cards}>
                 {data.map((card)=>(
                     <Cards key={card.id} title={card.title} imageUrl={card.image} follows={card.follows} />
                 ))}
             </div>
-        )}
+        
     </div>
   )
 }
