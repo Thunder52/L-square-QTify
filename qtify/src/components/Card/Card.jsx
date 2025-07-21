@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import CardMedia from '@mui/material/CardMedia';
 
-const Cards = ({ id, title, imageUrl, follows }) => {
+const Cards = ({ id, title, imageUrl, follows, hasLikes }) => {
   return (
     <Card
       sx={{
@@ -31,7 +31,7 @@ const Cards = ({ id, title, imageUrl, follows }) => {
         />
         <Box sx={{ backgroundColor:"#FFFFFF", padding:"8px", borderBottomLeftRadius:"16px",borderBottomRightRadius:"16px"}}>
         <Chip
-          label={`${follows} Follows`}
+          label={`${follows} ${hasLikes ? 'Likes' : 'Follows'}`}
           sx={{
             backgroundColor: "#121212",
             color: "#FFFFFF",
